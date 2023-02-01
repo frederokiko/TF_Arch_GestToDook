@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TF_Arch_GestToDo", "TF_Arch_GestToDo\TF_Arch_GestToDo.csproj", "{D7F86F4A-1828-4625-AB99-48704AD1B188}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ToDoDatabase", "ToDoDatabase\ToDoDatabase.sqlproj", "{BAA8D242-C485-4888-96E3-C96AC0F7A025}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Database", "01 Database", "{4E664690-E650-4A40-8E3D-2040CBF1D02F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 UI Web", "03 UI Web", "{82049E89-CC7F-4A12-8C7D-640B70D71365}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 DAL", "02 DAL", "{B59580B4-F57B-4607-AED2-AE6B35FF5E91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99 Tools", "99 Tools", "{B3682E24-BFF7-4E8D-95D5-8DA7F916C7A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools.Ado", "Tools.Ado\Tools.Ado.csproj", "{26225309-DEE4-48B7-83CB-6689DEE23BC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TF_Arch_GestToDo.Dal", "TF_Arch_GestToDo.Dal\TF_Arch_GestToDo.Dal.csproj", "{D3A22148-2BDC-40F1-911C-E94A6CF629C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7F86F4A-1828-4625-AB99-48704AD1B188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F86F4A-1828-4625-AB99-48704AD1B188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F86F4A-1828-4625-AB99-48704AD1B188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F86F4A-1828-4625-AB99-48704AD1B188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAA8D242-C485-4888-96E3-C96AC0F7A025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA8D242-C485-4888-96E3-C96AC0F7A025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAA8D242-C485-4888-96E3-C96AC0F7A025}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BAA8D242-C485-4888-96E3-C96AC0F7A025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAA8D242-C485-4888-96E3-C96AC0F7A025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAA8D242-C485-4888-96E3-C96AC0F7A025}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{26225309-DEE4-48B7-83CB-6689DEE23BC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26225309-DEE4-48B7-83CB-6689DEE23BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26225309-DEE4-48B7-83CB-6689DEE23BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26225309-DEE4-48B7-83CB-6689DEE23BC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3A22148-2BDC-40F1-911C-E94A6CF629C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3A22148-2BDC-40F1-911C-E94A6CF629C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3A22148-2BDC-40F1-911C-E94A6CF629C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3A22148-2BDC-40F1-911C-E94A6CF629C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D7F86F4A-1828-4625-AB99-48704AD1B188} = {82049E89-CC7F-4A12-8C7D-640B70D71365}
+		{BAA8D242-C485-4888-96E3-C96AC0F7A025} = {4E664690-E650-4A40-8E3D-2040CBF1D02F}
+		{26225309-DEE4-48B7-83CB-6689DEE23BC0} = {B3682E24-BFF7-4E8D-95D5-8DA7F916C7A8}
+		{D3A22148-2BDC-40F1-911C-E94A6CF629C8} = {B59580B4-F57B-4607-AED2-AE6B35FF5E91}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42CA738B-F1C0-4A41-94B7-626264C50D2E}
+	EndGlobalSection
+EndGlobal
